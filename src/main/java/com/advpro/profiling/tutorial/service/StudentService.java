@@ -24,6 +24,7 @@ public class StudentService {
     private StudentCourseRepository studentCourseRepository;
 
     public List<StudentCourse> getAllStudentsWithCourses() {
+        // recommit to branch "optimize"
         return studentCourseRepository.findAll();
     }
 
